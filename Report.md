@@ -8,6 +8,7 @@ I've implemented the following actor-critic algorithms:
 and compare their performances.
 
 For training the critic, TD(0) is optimized in all three algorithms. 
+The actor is optimized so that the actor model would select the action which the critic values higher.
 
 As optimizer, [Adam optimizer](https://arxiv.org/abs/1412.6980) is used in all algorithms.
 
