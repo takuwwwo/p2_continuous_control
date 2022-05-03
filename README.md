@@ -5,6 +5,8 @@ This task tries to keep a double-jointed arm in the goal location. If the arm is
 
 The observation space is 33 dimensions which includes position, rotation, velocity, and angular velocities of the arm. The agent is required to select a four-dimensional action, of which each coordinate is a number between -1 and 1.
 
+This task could be considered to be solved when the mean score of all agents over 100 consecutive episodes exceeds +30.
+
 ## Dependencies
 ### 1. Setup the Python Environment
 #### 1. Prepare Python environment with version 3.6
